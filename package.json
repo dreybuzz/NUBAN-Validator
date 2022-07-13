@@ -1,0 +1,22 @@
+{
+  "name": "nuban-validator",
+  "version": "1.0.0",
+  "description": "Nigerian Uniform Bank Account Number Validator",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dreybuzz/NUBAN-Validator.git"
+  },
+  "keywords": [
+    "NUBAN"
+  ],
+  "author": "Damilare Idowu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dreybuzz/NUBAN-Validator/issues"
+  },
+  "homepage": "https://github.com/dreybuzz/NUBAN-Validator#readme"
+}

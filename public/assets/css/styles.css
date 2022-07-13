@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&family=Radio+Canada:wght@300;400&display=swap");
+
+:root {
+  /* Dark Mode Palette */
+  --bg-dark: "#142850";
+  --text-color-dark: "whitesmoke";
+  --accent-color-dark: "#0C7B93";
+  --primary-color-dark: "#00A8CC";
+  --secondary-color-dark: "#27496D";
+
+  /* Light Mode Palette */
+  --bg-light: "#EFFFFD";
+  --text-color-light: "black";
+  --accent-color-light: "#42C2FF";
+  --primary-color-light: "#B8FFF9";
+  --secondary-color-light: "#85F4FF";
+
+  /* Miscs */
+  --danger: "#SC3545";
+  --success: "#20C997";
+}
+
+body,
+html {
+  font-family: "Radio Canada", sans-serif;
+  box-sizing: border-box;
+}
+
+.dark-mode {
+  background-color: var(--bg-dark);
+}
+
+.light-mode {
+  background-color: var(--bg-light);
+}
