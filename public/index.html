@@ -12,7 +12,67 @@
       integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
       crossorigin="anonymous"
     />
+
     <link rel="stylesheet" href="./assets/css/styles.css" />
   </head>
-  <body class="dark-mode"></body>
+  <body class="dark-mode">
+    <!-- Header Start -->
+    <header
+      class="d-flex justify-content-around align-items-center border-2 border-bottom"
+    >
+      <div class="container-fluid">
+        <div class="row align-items-center justify-content-between">
+          <!-- Logo -->
+          <div class="col col-lg-1 p-1">
+            <img src="./assets/img/logo_color.svg" alt="" class="img-fluid" />
+          </div>
+
+          <!-- Project Title -->
+          <div class="col-8 p-1 d-flex justify-content-center">
+            <span class="mt-2 fw-bolder h3" id="project-title"
+              >NUBAN Validator</span
+            >
+          </div>
+
+          <!-- Theme Toggle -->
+          <div class="col col-lg-1 p-1 mb-2">
+            <div class="d-flex justify-content-end">
+              <i
+                class="bi bi-lightbulb-fill theme-bulb"
+                data-state="true"
+                id="theme-toggle"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+    <!-- Main Content Start -->
+    <main class="d-flex p-5 justify-content-center">
+      <div class="container-fluid px-4 mt-5">
+        <!-- Account Number Input -->
+        <div class="row gx-5 justify-content-center">
+          <div class="col-lg-8">
+            <div class="form-floating">
+              <input
+                type="text"
+                class="form-control"
+                id="account-number"
+                placeholder=" "
+              />
+              <label for="account-number">Enter Account Number</label>
+            </div>
+          </div>
+        </div>
+
+        <!-- Possible Banks -->
+        <div class="container-fluid mt-5" id="possible-banks"></div>
+      </div>
+    </main>
+    <!-- Main Content End -->
+  </body>
+  <script src="./assets/js/NubanValidatorClass.js"></script>
+  <script src="./assets/js/main.js"></script>
 </html>
