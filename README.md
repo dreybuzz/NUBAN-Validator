@@ -1,6 +1,9 @@
 # NUBAN-Validator-JavaScript
 Nigerian Uniform Bank Account Number Validator - Inspired by <a href="https://github.com/Zifah/Nigeria-Bank-Account-NUBAN-Algorithm">this repo</a>
 
+# Demo
+A Live demo can be found (here)
+
 ## Description
 This repo contains a JavaScript class which generates and validates bank account numbers based on NUBAN (Nigeria Uniform Bank Account Number) specifications. The algorithm is based this publicly available <a href="https://www.cbn.gov.ng/OUT/2011/CIRCULARS/BSPD/NUBAN%20PROPOSALS%20V%200%204-%2003%2009%202010.PDF">CBN specification</a>.
 
@@ -10,7 +13,7 @@ This repo contains a JavaScript class which generates and validates bank account
 
 ## Usage
 
-### Browser
+_Browser_
 
 ```js
   <script src="./NubanValidator.js"></script
