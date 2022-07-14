@@ -28,16 +28,16 @@ _Node Project_
   - The constructor accepts optional params of 'accountNumber`, `bankCode` & `bankName`.
 
 ```js
-<!-- Object Instantiation -->
+// Object Instantiation
 const validator = new Nuban()
 validator.setAccountNumber("0186321433")
 validator.possibleBanks()
 
-<!-- Object Instantiation With Account Number -->
+// Object Instantiation With Account Number
   const validator = new Nuban("0186321433")
   validator.possibleBanks()
  
-<!-- Static Usage -->
+// Static Usage 
 Nuban.possibleBanks("0186321433")
 ```
 
