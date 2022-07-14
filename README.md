@@ -13,8 +13,6 @@ This repo contains a JavaScript class which generates and validates bank account
 ### Browser
 
 ```js
-  
   <script src="./NubanValidator.js"></script
-
 ```
 
