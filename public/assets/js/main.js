@@ -45,10 +45,11 @@ function getPossibleBanks(accountNumber) {
   const accountNumberValidator = new Nuban(accountNumber)
   const possibleBanks = accountNumberValidator.getPossibleBanks()
   if (possibleBanks.length) {
+    possibleBanksDIV.innerHTML = ''
     for (let i = 0; i < possibleBanks.length; i++) {
       possibleBanksDIV.innerHTML +=
         `
-      <div class="mt-3 col-lg-5 d-flex border border-2 p-2 rounded justify-content-between align-items-center mx-auto">
+      <div class="mt-3 col-lg-5 d-flex border border-2 p-2 rounded justify-content-between align-items-center mx-auto zoomIn" role="button">
         <div class="col col-lg-2 p-3">
           <img src="./assets/img/${possibleBanks[i]}.png" alt="" class="img-fluid" />
         </div>

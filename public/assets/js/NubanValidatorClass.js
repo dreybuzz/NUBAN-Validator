@@ -110,22 +110,6 @@ class Nuban {
         this.accountNumber = accountNumber
         this.bankCode = bankCode
         this.bankName = bankName
-
-
-        // // Validate Account Number
-        // if (this.accountNumber && this.accountNumber.length !== ACCOUNT_NUMBER_LENGTH) {
-        //     throw `Account Number Must Be ${ACCOUNT_NUMBER_LENGTH} Digits In Length`
-        // }
-
-        // // Validate Bank Code
-        // if (this.bankCode && (typeof this.bankCode !== "string" || String(this.bankCode).length !== BANK_CODE_LENGTH)) {
-        //     throw `Bank Code Must Either Be Blank Or Be A String & ${BANK_CODE_LENGTH} Digits In Length`
-        // }
-
-        // // Validate Bank Name
-        // if (this.name && (typeof this.bankName !== "string")) {
-        //     throw `Bank Name Must Either Be Blank Or Be A String`
-        // }
     }
 
     static allBanks() {
@@ -242,3 +226,5 @@ class Nuban {
     }
 }
 
+
+console.log(Nuban.validForBankCode("2388025873", "057"))

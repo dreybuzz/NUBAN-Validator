@@ -94,6 +94,7 @@ header {
 }
 
 .theme-bulb {
+  cursor: pointer;
 }
 
 main {
@@ -110,6 +111,14 @@ main {
 
 .bank-logo {
   width: 5%;
+}
+
+.zoomIn {
+  transition: 0.15s linear;
+}
+
+.zoomIn:hover {
+  transform: scale(1.05);
 }
 
 /* Animations */
