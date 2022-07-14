@@ -26,9 +26,6 @@ themeToggler.addEventListener("click", () => {
 document.body.addEventListener("click", () => { })
 
 
-
-
-
 // Account Number Input
 const accountNumberInput = document.getElementById("account-number")
 
@@ -37,7 +34,6 @@ accountNumberInput.addEventListener("input", (e) => {
   parsedInput = parsedInput.length > 10 ? parsedInput.substring(0, 10) : parsedInput
   accountNumberInput.value = parsedInput
   parsedInput.length === 10 ? getPossibleBanks(parsedInput) : possibleBanksDIV.innerHTML = ``
-
 })
 
 
@@ -72,3 +68,7 @@ function capitalizeFirsts(name) {
   }
   return namesUpper.join(" ")
 }
+
+document.getElementById("logo-container").addEventListener("click", () => {
+  window.open("https://damilareidowu.com", "_blank");
+})
