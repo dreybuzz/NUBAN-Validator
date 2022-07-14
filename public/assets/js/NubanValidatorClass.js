@@ -1,4 +1,4 @@
-export const ACCOUNT_NUMBER_LENGTH = 10
+const ACCOUNT_NUMBER_LENGTH = 10
 
 const BANK_CODE_LENGTH = 3
 
@@ -95,7 +95,7 @@ const allBanks = [
     }
 ]
 
-export class Nuban {
+class Nuban {
 
     constructor(accountNumber = null, bankCode = null, bankName = null) {
         // Constructor Variables Declarations
