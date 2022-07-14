@@ -97,7 +97,7 @@ header {
 }
 
 main {
-  height: 85%;
+  height: 80%;
 }
 
 #possible-banks {
@@ -106,6 +106,10 @@ main {
 
 .fadeIn {
   animation: fadeIn 1s ease-in forwards;
+}
+
+.bank-logo {
+  width: 5%;
 }
 
 /* Animations */
