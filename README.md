@@ -40,15 +40,15 @@ Nuban.possibleBanks("0186321433")
 
 _Static Methods_
 
-  - allBanks - `Returns _ALL_ banks data from the <b>allBanks</b> array`.
+  - allBanks - `Returns ALL banks data from the <b>allBanks</b> array`.
   ```js
     Nuban.allBanks()
   ```
-  - allBankNames - `Returns <b>ONLY</b> the *names* of banks in the *allBanks* array`.
+  - allBankNames - `Returns ONLY the *names* of banks in the *allBanks* array`.
   ```js
     Nuban.allBankNames()
   ```
-  - allBankCodes - `Returns <b>ONLY</b> the NUBAN codes of all banks in the *allBanks* array`.
+  - allBankCodes - `Returns ONLY the NUBAN codes of all banks in the *allBanks* array`.
    ```js
     Nuban.allBankCodes()
   ```
@@ -62,7 +62,7 @@ _Static Methods_
     Nuban.bankName("057")
     // Outputs "Zenith Bank"
   ```
-  - evaluateNuban - `Accepts two params, <b>accountNumber</b> & <b>bankCode</b> and returns the calculated Nuban Code`
+  - evaluateNuban - `Accepts two params, *accountNumber* & *bankCode* and returns the calculated Nuban Code`
   ```js
     Nuban.evaluateNuban("2388025873", "057")
     // Outputs 229
