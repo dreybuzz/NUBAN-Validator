@@ -41,7 +41,7 @@ validator.possibleBanks()
 Nuban.possibleBanks("0186321433")
 ```
 
-_Static Methods_
+### Static Methods
 
   - allBanks - `Returns ALL banks data from the <b>allBanks</b> array`.
   ```js
@@ -91,7 +91,7 @@ _Static Methods_
     // Outputs true.
   ```
   
- # Class Methods
+ ### Class Methods
   *All methods below all call the static methods provided above.*
   
   _Setters_
