@@ -22,7 +22,7 @@ _Node Project_
   - Import or require the exported variables and class in your project.
 
 ## Class Usage
-  - The constructor accepts optional params of 'accountNumber` `bankCode` & `bankName`.
+  - The constructor accepts optional params of 'accountNumber', 'bankCode' & `bankName`.
 
 ```js
 // Object Instantiation
