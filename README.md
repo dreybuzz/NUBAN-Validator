@@ -40,7 +40,7 @@ Nuban.possibleBanks("0186321433")
 
 _Static Methods_
 
-  - allBanks - `Returns *ALL* banks data from the <b>allBanks</b> array`.
+  - allBanks - `Returns _ALL_ banks data from the <b>allBanks</b> array`.
   ```js
     Nuban.allBanks()
   ```
