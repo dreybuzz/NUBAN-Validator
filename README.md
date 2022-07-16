@@ -22,7 +22,7 @@ _Node Project_
   - Import or require the exported variables and class in your project.
 
 ## Class Usage
-  - The constructor accepts optional params of 'accountNumber`, `bankCode` & `bankName`.
+  - The constructor accepts optional params of 'accountNumber` `bankCode` & `bankName`.
 
 ```js
 // Object Instantiation
@@ -101,6 +101,6 @@ _Static Methods_
   
   _Others_
   - isValidAccountNumber - `Checks if the account number is valid under the NUBAN standard & returns a boolean.`
-  - isValidForBankCode - `Checks if the account number is valid under object's current bank code.`
-  - isValidForBankName - `Accepts one param, the bank name & checks if the account number is valid under the bank name & returns a boolean.`
+  - isValidForBankCode - `Checks if the account number is valid under object's current bank code & returns a boolean.`
+  - isValidForBankName - `Checks if the account number is valid under object's current bank name & returns a boolean.`
   
