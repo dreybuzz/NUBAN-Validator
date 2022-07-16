@@ -1,8 +1,10 @@
-# About & Description
+# Title
 Nigerian Uniform Bank Account Number Validator - Inspired by <a href="https://github.com/Zifah/Nigeria-Bank-Account-NUBAN-Algorithm">this repo</a>. 
-This repo contains a JavaScript class which generates and validates bank account numbers based on NUBAN (Nigeria Uniform Bank Account Number) specifications. The algorithm is based on this <a href="https://www.cbn.gov.ng/OUT/2011/CIRCULARS/BSPD/NUBAN%20PROPOSALS%20V%200%204-%2003%2009%202010.PDF">CBN specification</a>.
 
-# Demo
+## Description
+JavaScript class which validates bank account numbers based on NUBAN (Nigeria Uniform Bank Account Number) specifications. The algorithm is based on this <a href="https://www.cbn.gov.ng/OUT/2011/CIRCULARS/BSPD/NUBAN%20PROPOSALS%20V%200%204-%2003%2009%202010.PDF">CBN specification</a>.
+
+## Demo
 A Live demo can be found [here](https://nuban-validator.netlify.app/).
 
 ## Setting Up
